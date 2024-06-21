@@ -18,7 +18,7 @@ def alpha_jn(j, n):
       elif j != n:
           alpha   = ((j - 1.0)**1.5 + (j + 1.0)**1.5 - 2.0 * j**1.5) * 4.0 / 3.0
       else:
-          alpha   = ((n - 1.0)**1.5 - n**1.5 + np.sqrt(n)*3.0/2.0) * 4.0/3.0
+          alpha   = ((n - 1.0)**1.5 - n**1.5 + np.sqrt(n)*1.5) * 4.0/3.0
       return alpha
 
 def alpha_v(N):
